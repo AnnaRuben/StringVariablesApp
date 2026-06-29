@@ -13,7 +13,7 @@ filePath = @"C:\Temp\Demo";
 string testString = $@"The file for {firstName} is at C:\SampleFile";
 
 //string interpolation 
-Console.WriteLine($"Hell {firstName} {lastName}");
+Console.WriteLine($"Hello {firstName} {lastName}");
 Console.WriteLine(filePath);
 Console.WriteLine(testString);
 
@@ -193,11 +193,11 @@ Console.WriteLine(testString);
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//now we're adding 3 strings together.
+//here we're adding 3 strings together.
 
 //" ": 
 
-//this one called a string literal, we use it just for the pace between  
+//this one called a string literal, we use it just for the space between:  
 
 //Console.WriteLine(firstName + " " + lastName);
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -208,11 +208,11 @@ Console.WriteLine(testString);
 
 //meaning that we're going to put a $ infront , it means that we're going to mix a little bit of code with our string:
 
-//Console.WriteLine($"Hell {firstName} {lastName}");
+//Console.WriteLine($"Hello {firstName} {lastName}");
 
 //this appending is actually making a new copy of this string :
 
-//"Hell {firstName} {lastName}"
+//"Hello {firstName} {lastName}"
 
 //it means what ever inside the {}, is a C# code and not as an actual string.
 
