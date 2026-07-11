@@ -9,12 +9,23 @@
 //    }
 //}
 
-TimeOnly openAt = TimeOnly.Parse("8:00 AM");
+//TimeOnly openAt = TimeOnly.Parse("8:00 AM");
 
-TimeOnly rightNow = TimeOnly.FromDateTime(DateTime.Now);
+//TimeOnly rightNow = TimeOnly.FromDateTime(DateTime.Now);
 
-Console.WriteLine(openAt);
-Console.WriteLine(rightNow);
+//Console.WriteLine(openAt);
+//Console.WriteLine(rightNow);
+
+
+
+
+
+
+
+
+
+
+
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //Examples and Explanation
