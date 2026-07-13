@@ -2,5 +2,6 @@
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
   </Folder>
+  <Project Path="Conditionals/Conditionals.csproj" Id="70d87fe3-972b-4673-b723-d8eec0c7e3a9" />
   <Project Path="MasterC/CommonVariables.csproj" />
 </Solution>
