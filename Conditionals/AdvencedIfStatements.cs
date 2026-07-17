@@ -18,7 +18,7 @@ string lastName = Console.ReadLine();
 //if (firstName.ToLower() == "tim" &&
 //    lastName.ToLower() == "corey")
 //{
-//    Console.WriteLine("Hello Mr. Corey.");
+//    Console.WriteLine("Hello Mr. Corey."); 
 //}
 //else if (firstName.ToLower() == "tim")
 //{
@@ -32,6 +32,10 @@ string lastName = Console.ReadLine();
 //{
 //    Console.WriteLine("Sorry you don't have a cooler name!");
 //}
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 
 
 //if (firstName.ToLower() == "tim")
@@ -47,6 +51,29 @@ string lastName = Console.ReadLine();
 //{
 //    Console.WriteLine("Sorry your name isn't cooler.");
 //}
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+bool isComplete = false;
+
+if (isComplete = true)
+{
+    Console.WriteLine("You have a cool first name.");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -376,121 +403,55 @@ string lastName = Console.ReadLine();
 //    Console.WriteLine("Sorry you don't have a cooler name!");
 //}
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//Example -> Common mistake without .ToLower:
 
 
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//if (firstName = "tim")
+//{
+//    Console.WriteLine("You have a cool first name.");
+//}
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+//visual studio gives us an Error saying :
 
+//"Cannot implicitly convert type 'string' to 'bool'".
 
+//that Error's hard to understand. 
 
+//this Error's because we have one = here.
 
+//one = is a problem because, it's assignment, means it put "tim" in to the variable firstName.   
 
+//after that it evaluate the variable firstName ,to see if it's true or false, but it's a string, so it's says that it can't convert a string to bool.   
 
+//notice, that technically works, but it'a a bad code :
 
 
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+bool isComplete = false;
 
+if (isComplete = true)
+{
+    Console.WriteLine("You have a cool first name.");
+}
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+//because it's not a comparison, instead we put the value true in variable isComplete, after that evaluate isComplete. 
 
+//if we run this code, it'll say:
 
+//"You have a cool first name."
 
+//because isComplete = true, because we assigned this value first and after that compare it.  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
