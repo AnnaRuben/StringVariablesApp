@@ -9,6 +9,7 @@
 //    }
 //}
 
+
 //bool isComplete = true; 
 
 //if (isComplete)
@@ -24,19 +25,28 @@
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Console.Write("What is your first name: ");
-string? firstName = Console.ReadLine();
+//Console.Write("What is your first name: ");
+//string? firstName = Console.ReadLine();
 
-if (firstName == "Tim")
-{
-    Console.WriteLine("Hello Mr. Corey.");
-}
-else
-{
-    Console.WriteLine($"Helo {firstName}");
-}
+//string lastName;
 
-Console.WriteLine("End of program.");
+//if (firstName.ToLower() == "tim")
+//{
+//Console.WriteLine("Hello Mr. Corey.");
+//lastName = "Corey";
+//}
+//else
+//{
+//    Console.WriteLine($"Helo {firstName}");
+//    lastName = "Smith";
+//}
+
+//Console.WriteLine(lastName);
+//Console.WriteLine("End of program.");
+
+
+
+
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -260,17 +270,172 @@ Console.WriteLine("End of program.");
 //we need to remember, those () evaluate a boolean value:
 
 //(firstName == "Tim")
-
-
-
-
-
-
-
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//what if the user write tIM :
 
 
+//~~~~~~~~~~~~~~~~
+//Console.Write("What is your first name: ");
+//string? firstName = Console.ReadLine();
+
+//if (firstName == "Tim")
+//{
+//    Console.WriteLine("Hello Mr. Corey.");
+//}
+//else
+//{
+//    Console.WriteLine($"Helo {firstName}");
+//}
+
+//Console.WriteLine("End of program.");
+//~~~~~~~~~~~~~~~~
+
+
+//why did it not say when the value was Lower case t, Upper case IM :
+
+//"Hello Mr. Corey."
+
+//is because of the if statement:
+
+//if (firstName == "Tim")
+
+//this evaluates to false, so why this evaluates to false ?  
+
+//because it's case sensitive, so Capital T, Lower case im is the only way that Tim'll match Tim.
+
+//is that really what we want ?
+
+//No, because that isn't really robust.
+
+//there's a method of a string ,we can say:
+
+//.ToLower()
+
+//if (firstName.ToLower() == "tim")
+
+//it converts the string of a first name to lower case.
+
+//now it doesn't matter the casing.  
+
+//just to point that out ,it doesn't modify the original variable.
+
+//we're going to use:
+
+//.ToLower()
+
+//quite a bit probably when we're talking about strings if we're doing a string comparison like this :
+
+//if (firstName.ToLower() == "tim")
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//note, we can have nested if statements.  
+
+
+//~~~~~~~~~~~~~~~~
+//Console.Write("What is your first name: ");
+//string? firstName = Console.ReadLine();
+
+//if (firstName.ToLower() == "tim")
+//{
+//    Console.WriteLine("Hello Mr. Corey.");
+//}
+//else
+//{
+//    Console.WriteLine($"Helo {firstName}");
+//}
+
+//Console.WriteLine("End of program.");
+//~~~~~~~~~~~~~~~~
+
+
+//we can put in this section another if statement :
+
+
+//~~~~~~~~~~~~~~~~
+//if (firstName.ToLower() == "tim")
+//{
+//    Console.WriteLine("Hello Mr. Corey.");
+//}
+//~~~~~~~~~~~~~~~~
+
+
+//it's up to us if we want to do this, that's possible, we can put variables, if statements.
+
+//for example ,we create a variable with hard code :
+
+
+//~~~~~~~~~~~~~~~~
+//Console.Write("What is your first name: ");
+//string? firstName = Console.ReadLine();
+
+//if (firstName.ToLower() == "tim")
+//{
+//    Console.WriteLine("Hello Mr. Corey.");
+//    string lastName = "Corey";
+//}
+//else
+//{
+//    Console.WriteLine($"Helo {firstName}");
+//}
+
+
+//Console.WriteLine(lastName);
+//Console.WriteLine("End of program.");
+//~~~~~~~~~~~~~~~~
+
+
+//notice ,it doesn't show us intellisense, and if we try and type it anyways, it says "The name 'lastName' does not exist in the current context".   
+
+//that's because this variable was created inside of this scope:
+
+
+//~~~~~~~~~~~~~~~~
+//{
+//    Console.WriteLine("Hello Mr. Corey.");
+//    string lastName = "Corey";
+//}
+//~~~~~~~~~~~~~~~~
+
+
+//which means it doesn't go out side of that scope.
+
+//we can send things into a scope but not out.
+
+//if we want to change this to be useable outside, we need to declare it at the top and then we can say:
+
+//lastName = "Corey";
+
+//looks like this :
+
+
+//~~~~~~~~~~~~~~~~
+//Console.Write("What is your first name: ");
+//string? firstName = Console.ReadLine();
+
+//string lastName;
+
+//if (firstName.ToLower() == "tim")
+//{
+//    Console.WriteLine("Hello Mr. Corey.");
+//    lastName = "Corey";
+//}
+//else
+//{
+//    Console.WriteLine($"Helo {firstName}");
+//    lastName = "Smith";
+//}
+
+//Console.WriteLine(lastName);
+//Console.WriteLine("End of program.");
+//~~~~~~~~~~~~~~~~
+
+
+//but now, we modified the variable inside the scope but because was created in the parent scope, then we can access it again in the parent scope.      
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
