@@ -10,43 +10,43 @@
 //}
 
 
-bool isComplete = true;
+//bool isComplete = true;
 
-if (isComplete)
-{
-    Console.WriteLine("The statement was true.");
-    Console.WriteLine("This line works in true.");
-}
-else
-{
-    Console.WriteLine("The statement was false.");
-    Console.WriteLine("This should also run");
-}
+//if (isComplete)
+//{
+//    Console.WriteLine("The statement was true.");
+//    Console.WriteLine("This line works in true.");
+//}
+//else
+//{
+//    Console.WriteLine("The statement was false.");
+//    Console.WriteLine("This should also run");
+//}
 
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
+////~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
-Console.Write("What is your first name: ");
-string? firstName = Console.ReadLine();
 
-string lastName;
 
-if (firstName.ToLower() == "tim")
-{
-    Console.WriteLine("Hello Mr. Corey.");
-    lastName = "Corey";
-}
-else
-{
-    Console.WriteLine($"Helo {firstName}");
-    lastName = "Smith";
-}
+//Console.Write("What is your first name: ");
+//string? firstName = Console.ReadLine();
 
-Console.WriteLine(lastName);
-Console.WriteLine("End of program.");
+//string lastName;
+
+//if (firstName.ToLower() == "tim")
+//{
+//    Console.WriteLine("Hello Mr. Corey.");
+//    lastName = "Corey";
+//}
+//else
+//{
+//    Console.WriteLine($"Helo {firstName}");
+//    lastName = "Smith";
+//}
+
+//Console.WriteLine(lastName);
+//Console.WriteLine("End of program.");
 
 
 

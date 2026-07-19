@@ -9,15 +9,15 @@
 //    }
 //}
 
-Doubles can have a Decimal point - 1.23, 43 
+//Doubles can have a Decimal point - 1.23, 43 
 
-double averageAge;
+//double averageAge;
 
-averageAge = (43.0 + 22 + 62) / 3;
+//averageAge = (43.0 + 22 + 62) / 3;
 
-averageAge = 2.3 / 3;
+//averageAge = 2.3 / 3;
 
-Console.WriteLine(averageAge);
+//Console.WriteLine(averageAge);
 
 
 

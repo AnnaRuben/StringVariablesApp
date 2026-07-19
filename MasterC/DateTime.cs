@@ -9,19 +9,19 @@
 //    }
 //}
 
-using System.Globalization;
+//using System.Globalization;
 
-DateTime today = DateTime.UtcNow;
+//DateTime today = DateTime.UtcNow;
 
-DateTime birthday = DateTime.Parse("15/06/1998");
+//DateTime birthday = DateTime.Parse("15/06/1998");
 
-DateTime birthday = DateTime.ParseExact("11/15/1998", "M/d/yyyy", CultureInfo.InvariantCulture);
+//DateTime birthday = DateTime.ParseExact("11/15/1998", "M/d/yyyy", CultureInfo.InvariantCulture);
 
-DateTime birthday = DateTime.ParseExact("06/11/1998", "d/M/yyyy", CultureInfo.InvariantCulture);
+//DateTime birthday = DateTime.ParseExact("06/11/1998", "d/M/yyyy", CultureInfo.InvariantCulture);
 
-Console.WriteLine(birthday.ToString());
+//Console.WriteLine(birthday.ToString());
 
-Console.WriteLine(today.ToString("MMMM dd, yyyy hh:mm tt zzz", CultureInfo.InvariantCulture));
+//Console.WriteLine(today.ToString("MMMM dd, yyyy hh:mm tt zzz", CultureInfo.InvariantCulture));
 
 
 

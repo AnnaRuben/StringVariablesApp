@@ -12,14 +12,14 @@
 //Null - Lack of values.
 
 //Haven't asked for the age yet
-int? age = null;
-bool? birthday = null;
-double? battingAverage = null;
-decimal? accountBalance = null;
-string? firstName = null;
+//int? age = null;
+//bool? birthday = null;
+//double? battingAverage = null;
+//decimal? accountBalance = null;
+//string? firstName = null;
 
 //we have asked for the age now
-age = 0;
+//age = 0;
 
 
 

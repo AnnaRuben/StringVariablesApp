@@ -10,10 +10,10 @@
 //}
 
 
-string firstName = "Anna";
-string lastName = "Rubenchik";
-bool isAnnaAlive = true;
-int age = 35;
-string phoneNumber = "0545285053";
+//string firstName = "Anna";
+//string lastName = "Rubenchik";
+//bool isAnnaAlive = true;
+//int age = 35;
+//string phoneNumber = "0545285053";
 
-Console.WriteLine($"{firstName}, {lastName}, {age}, {phoneNumber}, {isAnnaAlive}");
+//Console.WriteLine($"{firstName}, {lastName}, {age}, {phoneNumber}, {isAnnaAlive}");

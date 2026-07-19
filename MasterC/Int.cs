@@ -13,21 +13,21 @@
 
 //No: 1.2, -5.7
 
-int age = 0;
+//int age = 0;
 
-age = 43;
+//age = 43;
 
-int ageInTenYears = age + 10;
+//int ageInTenYears = age + 10;
 
 //Two billion +/-
-signed Int32
+//signed Int32
 //unsigned - 4 Billion 
 //bit - 0 or 1 
 //byte - 1 byte or 8 bits - 00000000
 //1, 11, 111
 
-Console.WriteLine(age);
-Console.WriteLine(ageInTenYears);
+//Console.WriteLine(age);
+//Console.WriteLine(ageInTenYears);
 
 //don't divide ints - Console.WriteLine(age / 2);
 

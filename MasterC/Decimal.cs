@@ -10,16 +10,16 @@
 //}
 
 
-Doubles - 4.12, 32, 1.234
-Decimal - 4.12, 32, 1.234
+//Doubles - 4.12, 32, 1.234
+//Decimal - 4.12, 32, 1.234
 
-Int32 - 00000000 00000000 00000000 00000001
+//Int32 - 00000000 00000000 00000000 00000001
 
-decimal bankAccountBalance;
+//decimal bankAccountBalance;
 
-bankAccountBalance = 2.34M;
+//bankAccountBalance = 2.34M;
 
-Console.WriteLine(bankAccountBalance);
+//Console.WriteLine(bankAccountBalance);
 
 
 

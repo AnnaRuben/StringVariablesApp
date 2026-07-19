@@ -11,12 +11,12 @@
 
 //true or false 
 
-bool isComplete = true;
+//bool isComplete = true;
 
-isComplete = !isComplete;
+//isComplete = !isComplete;
 
-Console.WriteLine(!isComplete);
-Console.WriteLine(isComplete);
+//Console.WriteLine(!isComplete);
+//Console.WriteLine(isComplete);
 
 
 
